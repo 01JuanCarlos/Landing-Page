@@ -66,6 +66,7 @@ h5 {
 
     .container-custom .row {
         justify-content: flex-start;
+        gap: 5px;
     }
 }
 
