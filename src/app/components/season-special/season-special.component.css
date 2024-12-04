@@ -13,7 +13,6 @@
     align-items: center;
 }
 
-
 .container-custom {
     padding-inline: 80px;
     width: 1440px;
@@ -23,7 +22,6 @@
 .container-custom .row {
     display: flex;
     justify-content: space-between;
-
 }
 
 .text-hero-1 {
@@ -50,6 +48,7 @@
 }
 
 @media(max-width:768px) {
+
     .container-custom {
         padding-inline: 40px;
     }
@@ -58,6 +57,7 @@
         width: 100%;
         height: auto;
     }
+
     .container-img {
         justify-content: center;
     }
@@ -81,7 +81,6 @@
 }
 
 @media (max-width: 382px) {
-
 
     .text-hero-1 {
         font-size: 45px;

@@ -72,6 +72,7 @@
 }
 
 @media(max-width:768px) {
+
     .container-custom {
         padding-inline: 40px;
     }
@@ -80,10 +81,12 @@
         width: 100%;
         height: auto;
     }
+
 }
 
 
 @media (max-width: 760px) {
+
     .container-custom {
         margin-top: 20px;
     }
@@ -96,6 +99,7 @@
         width: 100%;
         height: auto;
     }
+
 }
 
 @media (max-width: 382px) {
@@ -112,4 +116,5 @@
         width: 200px;
         height: 40px;
     }
+    
 }

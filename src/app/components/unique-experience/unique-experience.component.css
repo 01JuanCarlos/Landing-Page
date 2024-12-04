@@ -13,7 +13,6 @@
     align-items: center;
 }
 
-
 .container-custom {
     padding-inline: 80px;
     width: 1440px;
@@ -36,7 +35,6 @@
     font-size: 20px;
 }
 
-
 .container-img {
     display: flex;
     justify-content: flex-end;
@@ -51,9 +49,11 @@
 }
 
 @media(max-width:768px) {
+
     .container-custom {
         padding-inline: 40px;
     }
+
     .responsive-img {
         width: 100%;
         height: auto;
@@ -76,16 +76,19 @@
         width: 67%;
         height: auto;
     }
+
     .container-img {
         justify-content: center;
     }
 }
 
 @media (max-width: 382px) {
+
     .responsive-img {
         width: 100%;
         height: auto;
     }
+
     .text-hero-1 {
         font-size: 45px;
     }
@@ -94,5 +97,4 @@
         font-size: 16px;
     }
 
-  
 }

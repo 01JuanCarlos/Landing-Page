@@ -13,7 +13,6 @@
     align-items: center;
 }
 
-
 .container-custom {
     padding-inline: 80px;
     width: 1440px;
@@ -94,7 +93,6 @@
     }
 }
 
-
 @media (max-width: 760px) {
     .container-custom {
         padding-top: 20px;
@@ -104,9 +102,11 @@
     .container-custom .row {
         gap: 20px;
     }
+
     .container-img{
         justify-content: center;
     }
+    
     .responsive-img {
         width: 80%;
         height: auto;

@@ -33,12 +33,15 @@ li {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-h3{
+
+h3 {
     padding: 0px;
 }
-h5{
+
+h5 {
     font-weight: 700;
 }
+
 .text-hero-1 {
     font-size: 32px;
     font-weight: 800;
@@ -50,16 +53,17 @@ h5{
 }
 
 .text-end {
- 
-    border-top: solid 1px  rgb(41, 63, 51);
+    border-top: solid 1px rgb(41, 63, 51);
 }
 
 
 
 @media(max-width:768px) {
+
     .container-custom {
         padding-inline: 40px;
     }
+
     .container-custom .row {
         justify-content: flex-start;
     }
@@ -67,6 +71,7 @@ h5{
 
 
 @media (max-width: 760px) {
+    
     .container-custom {
         padding-top: 20px;
         padding-bottom: 20px;
