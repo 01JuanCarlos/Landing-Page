@@ -104,9 +104,11 @@
     .container-custom .row {
         gap: 20px;
     }
-
+    .container-img{
+        justify-content: center;
+    }
     .responsive-img {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
@@ -124,5 +126,9 @@
     .btn-carta {
         width: 200px;
         height: 40px;
+    }
+    .responsive-img {
+        width: 100%;
+        height: auto;
     }
 }
