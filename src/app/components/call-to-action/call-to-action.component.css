@@ -1,0 +1,128 @@
+* {
+    color: white;
+}
+
+.container-section {
+    background: url(/assets/images/Shape2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 700px;
+    align-items: center;
+}
+
+
+.container-custom {
+    padding-inline: 80px;
+    width: 1440px;
+    overflow: hidden;
+}
+
+.container-custom .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 101px;
+}
+
+.text-hero-1 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 61.6px;
+}
+
+.text-hero-2 {
+    font-size: 24px;
+}
+
+.btn-carta {
+    width: 196px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(212, 162, 6, 1);
+    border: solid 2px rgba(212, 162, 6, 1);
+    border-radius: 50px;
+    padding-inline: 24px;
+}
+
+.btn-carta {
+    width: 330px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(212, 162, 6, 1);
+    border: solid 2px rgba(212, 162, 6, 1);
+    border-radius: 50px;
+    padding-inline: 24px;
+    background-color: transparent;
+    transition: all 800ms ease;
+    cursor: pointer;
+}
+
+.btn-carta:hover {
+    box-shadow: 4px 3px 25px rgba(212, 162, 6, 0.8);
+    background-color: rgba(212, 162, 6, 1);
+    color: white;
+    transform: scale(1.1);
+}
+
+.container-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.responsive-img {
+    width:600px;
+    height: 460px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media(max-width:768px) {
+    .container-custom {
+        padding-inline: 40px;
+    }
+
+    .responsive-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .container-custom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .container-custom .row {
+        gap: 20px;
+    }
+
+    .responsive-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 382px) {
+
+    .text-hero-1 {
+        font-size: 45px;
+    }
+
+    .text-hero-2 {
+        font-size: 16px;
+    }
+
+    .btn-carta {
+        width: 200px;
+        height: 40px;
+    }
+}
